@@ -1,5 +1,4 @@
-# Federated Graphql example
-
+# Federated Graphql Example
 As a project grows bigger, monolithic architecture are prone to scalability issue and slower continuous intergration. Many teams have moved onto microservice architecture which enables companies to break down a monolith into multple services. Federated graphql allows companies to expose a single data graph to the client, thus enable clients to fetch data from multiple services without knowing the sources.
 
 Federated graphql highly encourage seperation of concerns design principle. It uses concern-based seperation where each services are allowed to extend a type from other service. This allows the extended implemenation to reside on the concerned service rather than the originating service.
@@ -38,6 +37,3 @@ query {
   }
 }
 ```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
